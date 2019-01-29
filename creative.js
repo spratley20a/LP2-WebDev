@@ -5,6 +5,8 @@ function main()
   let passwordOutput = document.getElementById("passwordOutput");
   let usernameEnter = document.getElementById("usernameEnter");
   let usernameOutput = document.getElementById("usernameOutput");
+  let span = docucment.getElementByTagName("span");
+  let paragraph = docucment.getElementByTagName("p");
   passwordOutput.textContent = passwordEnter.value;
   usernameOutput.textContent = usernameEnter.value;
 }
