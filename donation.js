@@ -1,4 +1,3 @@
-
 window.addEventListener("load", main)
 function main()
 {
@@ -7,16 +6,17 @@ tshirt.addEventListener("mouseover", e =>
   {
   let tpic = document.getElementById("tpic");
   document.getElementById("tpic").innerHTML = "GO UNICORNS!!!";
- 
-}); 
+
+});
   let clickonme = document.getElementById("clickonme");
-  tshirt.addEventListener("click", e =>
+  clickonme.addEventListener("click", e =>
   {
    document.getElementById("boy1").innerHTML = "Gregory Jarvis: Director of Physical Activity and Wellness";
    document.getElementById("boy2").innerHTML = "Thomas Michell: Instructor of Physical Activity and Wellness";
    document.getElementById("boy3").innerHTML = "Brian Gonyeau: Instructor of Physical Activity and Wellness";
-  
+});
 }
+
 function submit()
 {
   let donation = document.getElementById("donation")
