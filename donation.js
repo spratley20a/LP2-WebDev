@@ -6,7 +6,10 @@ tshirt.addEventListener("mouseover", e =>
   {
   let tpic = document.getElementById("tpic");
   document.getElementById("tpic").innerHTML = "GO UNICORNS!!!";
-
+});
+tshirt.addEventListener("mouseout", e =>
+{
+  document.getElementById("tpic").innerHTML = ""
 });
   let clickonme = document.getElementById("clickonme");
   clickonme.addEventListener("click", e =>
