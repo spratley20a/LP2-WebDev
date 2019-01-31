@@ -1,3 +1,4 @@
+
 window.addEventListener("load", main)
 function main()
 {
@@ -5,7 +6,8 @@ let tshirt = document.getElementById("tshirt");
 tshirt.addEventListener("mouseover", e =>
   {
   let tpic = document.getElementById("tpic");
-  document.getElementById("tpic").innerHTML = <img src="./images/NCSSMT.jpeg" alt="T-Shirt" style="Width:30%">
+  document.getElementById("tpic").innerHTML = "GO UNICORNS!!!"
+});
 }
 function submit()
 {
